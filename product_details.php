@@ -34,7 +34,7 @@ session_start(); //session 8-02-2024 10:49PM
 
     <div class="container-fluid p-0">
 
-        <nav class="navbar navbar-expand-lg  bg-info navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <img src="./Images/logo.png" alt="" class="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -53,9 +53,9 @@ session_start(); //session 8-02-2024 10:49PM
                         <li class="nav-item">
                             <a class="nav-link" href="#">Register</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php
                                      cart_item(); //26-01-2024
@@ -92,7 +92,7 @@ session_start(); //session 8-02-2024 10:49PM
 
 
         <!-- Second child --> <!-- 10-01-2024 -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
 
             <ul class="navbar-nav me-auto">
 
@@ -167,11 +167,11 @@ if(!isset($_SESSION['username'])){
             </div>
 
             <!-- Side Navigation Bar -->
-            <div class="col-md-2 bg-secondary p-0">
+            <div class="col-md-2 bg-dark p-0">
 
                 <ul class="navbar-nav me-auto text-center">
 
-                    <li class="nav-item bg-info ">
+                    <li class="nav-item bg-success ">
                         <a href="#" class="nav-link text-light ">
                             <h4>Delivery Brands</h4>
                         </a>
@@ -190,7 +190,7 @@ if(!isset($_SESSION['username'])){
                 <!-- Categories to be displayed -->
                 <ul class="navbar-nav me-auto text-center">
 
-                    <li class="nav-item bg-info ">
+                    <li class="nav-item bg-success ">
                         <a href="#" class="nav-link text-light ">
                             <h4>Categories</h4>
                         </a>

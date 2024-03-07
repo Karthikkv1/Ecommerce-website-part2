@@ -82,7 +82,7 @@ if(isset($_POST['confirm_payment'])){
             </div>
 
             <div class="form-outline my-4 text-center w-50 m-auto">
-               <input type="submit" class="bg-info py-2 px-3 border-0" value="Confirm" name="confirm_payment">
+               <input type="submit" class="bg-dark text-success py-2 px-3 border-0" value="Confirm" name="confirm_payment">
             </div>
 
         </form>

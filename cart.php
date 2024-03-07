@@ -59,9 +59,9 @@ session_start();
                         <li class="nav-item">
                             <a class="nav-link" href="./users_area/user_registration.php">Register</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup>
                                     <?php
@@ -221,10 +221,10 @@ session_start();
                                             <!--27-01-2024 10:41PM-->
                                             <td>
                                                 <!-- <button class="bg-info px-3  py-2 border-0 mx-3">Update</button> -->
-                                                <input type="submit" value="Update Cart" class="bg-info px-3  py-2 border-0 mx-3"
+                                                <input type="submit" value="Update Cart" class="bg-success text-dark px-3  py-2 border-0 mx-3"
                                                     name="update_cart">
                                                 <!-- <button class="bg-info px-3  py-2 border-0 mx-3">Remove</button> -->
-                                                <input type="submit" value="Remove Cart" class="bg-info px-3  py-2 border-0 mx-3"
+                                                <input type="submit" value="Remove Cart" class="bg-success text-dark px-3  py-2 border-0 mx-3"
                                                     name="remove_cart">
                                             </td>
 
@@ -262,11 +262,11 @@ session_start();
                             echo " <h4 class='px-3'>Subtotal:<strong class='text-info'>
                              $total_price/-
                         </strong></h4>
-                        <input type='submit' value='Continue Shopping' class='bg-info px-3  py-2 border-0 mx-3'
+                        <input type='submit' value='Continue Shopping' class='bg-secondary text-light px-3  py-2 border-0 mx-3'
                         name='continue_shopping'>
-                    <button class='bg-secondary px-3  py-2 border-0 text-light'><a href='./users_area/checkout.php' class='text-light text-decoration-none'>CheckOut</a></button>";
+                    <button class='bg-dark text-success px-3  py-2 border-0 text-light'><a href='./users_area/checkout.php' class='text-success text-decoration-none'>CheckOut</a></button>";
                         } else {
-                            echo "  <input type='submit' value='Continue Shopping' class='bg-dark text-success px-3  py-2 border-0 mx-3'
+                            echo "  <input type='submit' value='Continue Shopping' class='bg-secondary text-light px-3  py-2 border-0 mx-3'
                             name='continue_shopping'>";
                         }
 

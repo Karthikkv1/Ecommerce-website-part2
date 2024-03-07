@@ -37,7 +37,7 @@ function getproducts()
 
                 echo "  <div class='col-md-4 mb-2'>
         <div class='card'>
-            <img src='./admin_area/product_images/ $product_image1' class='card-img-top' alt='$product_title'> 
+            <img src='./admin_area/product_images/$product_image1' class='card-img-top' alt='$product_title'> 
             <div class='card-body'>
                 <h5 class='card-title'>$product_title</h5>
                 <p class='card-text'>$product_description</p>
@@ -89,7 +89,7 @@ function get_all_products()
 
                 echo "  <div class='col-md-4 mb-2'>
         <div class='card'>
-            <img src='./admin_area/product_images/ $product_image1' class='card-img-top' alt='$product_title'> 
+            <img src='./admin_area/product_images/$product_image1' class='card-img-top' alt='$product_title'> 
             <div class='card-body'>
                 <h5 class='card-title'>$product_title</h5>
                 <p class='card-text'>$product_description
@@ -379,7 +379,7 @@ function view_details()
            </p>
            <p class='card-text'>Price:$product_price/-</p> 
            <a href='index.php?add_to_cart=$product_id' class='btn btn-success'>Add to cart</a>
-                <a href='index.php' class='bt  btn-secondary'>Go Home</a>
+                <a href='index.php' class='btn btn-secondary'>Go Home</a>
             </div>
         </div>
     </div>
@@ -390,15 +390,15 @@ function view_details()
    
     <div class='row'>
         <div class='col-md-12'>
-            <h4 class='text-center text-info mb-5'>Related products</h4>
+            <h4 class='text-center text-success mb-5'>Related products</h4>
         </div>
 
         <div class='col-md-6'>
-        <img src='./admin_area/product_images/ $product_image2' class='card-img-top' alt='$product_title'>
+        <img src='./admin_area/product_images/$product_image2' class='card-img-top' alt='$product_title'>
         </div>
 
         <div class='col-md-6'>
-        <img src='./admin_area/product_images/ $product_image3' class='card-img-top' alt='$product_title'>
+        <img src='./admin_area/product_images/$product_image3' class='card-img-top' alt='$product_title'>
         </div>
     </div>
 </div>";

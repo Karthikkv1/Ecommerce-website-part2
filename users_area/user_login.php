@@ -52,7 +52,7 @@ include('../functions/common_function.php'); //02-02-2024 9:52PM
 
 
                     <div class="mt-4 pt-2">
-                        <input type="submit" value="Login" class="bg-info py-2 px-3 border-0" name="user_login">
+                        <input type="submit" value="Login" class="bg-dark text-success py-2 px-3 border-0" name="user_login">
                         <p class="small fw-bold mt-2 pt-1 mb-0">Dont have an account ? <a href="user_registration.php"
                                 class="text-danger"> Register</a></p>
                     </div>

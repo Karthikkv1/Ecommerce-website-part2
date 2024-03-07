@@ -24,7 +24,7 @@ include('../functions/common_function.php'); ?>
     }
 </style>
 
-<body>
+<body class="bg-dark">
     <!-- PHP code to access user id 09-02-2024 9:21PM -->
 <?php 
 $user_ip=getIPAddress();  //11-02-2024
@@ -45,7 +45,7 @@ $user_id=$run_query['user_id'];
             </div>
 
             <div class="col-md-6">
-                <a href="order.php?user_id=<?php echo $user_id ?>"><h2 class="text-center">Pay Offline</h2></a>
+                <a href="order.php?user_id=<?php echo $user_id ?>"><h2 class="text-center text-success ">Pay Offline</h2></a>
             </div>
 
         </div>
